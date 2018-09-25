@@ -8,10 +8,10 @@ public class Prueba {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Controlador.getInstancia().nuevoJugador("AAA", 11223344, "Juan Cacho Perez", 2);
+		Controlador.getInstancia().nuevoJugador("BBB",33914084, "Juan Cacho Perez", 2);
 		System.out.println("WW");
 		try {
-			JugadorDTO aux = Controlador.getInstancia().getJugadorByDNI("AAA", 11223344);
+			JugadorDTO aux = Controlador.getInstancia().getJugadorByDNI("BBB", 33914084);
 			System.out.println(aux.toString());
 		} catch (JugadorException e) {
 			// TODO Auto-generated catch block
